@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top-part{
+    background-image: url(./images/donation13.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 480px;
+}
+.top-text{
+text-align: center;
+color: white;
+width:90%;
+margin-top:300px ;
+
+}
+
+.bigger-text{
+    text-align: center;
+    width:100%;
+    height:150px;
+    /* margin-top: 150px; */
+ 
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+/* donate amount part */
+.donate-part{
+    text-align: center;
+    width:90%;
+    justify-content:center;
+}
