@@ -117,6 +117,21 @@ width:90%;
     background-color: rgb(243, 225, 218);
     border: 2px solid whitesmoke;
 }
+
+.about-us{
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.about-us img{
+    height:40%
+}
+.half-width{
+    width:45%;
+    padding:2%;
+    margin: 2%;
+}
+
 /* footer part */
 .end-part{
     text-align: center;
