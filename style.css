@@ -76,19 +76,56 @@ width:90%;
 /* donate plan section */
 .donate-plans{
     margin-top: 5%;
+    padding: 2%;
 }
 
 .plan-text{
     text-align: center;
+    color:sienna;
+    font-size: 2em;
     
 }
 .plans{
     display:flex;
     width:98%;
+    padding: 1%;
 }
 .plan{
     width: 30%;
-    background-color: aliceblue;
+    background-image: linear-gradient(gray, white);
+    border: 2px solid rgb(188, 155, 155);
+    border-radius: 15px;
     padding-left: 10px;
     margin-left: 10px;
+}
+
+/* bonus part */
+
+.update{
+    text-align: center;
+    margin: 5%;
+    border: 2px solid orange;
+    
+}
+.sending-email{
+    background-color: antiquewhite;
+    padding: 5%;
+}
+.sending-email input{
+    width: 250px;
+    height:30px;
+    background-color: rgb(243, 225, 218);
+    border: 2px solid whitesmoke;
+}
+/* footer part */
+.end-part{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1% 0;
+}
+.text-color{
+    color: orangered;
+    font-size: 1.2em;
+    font-family: cursive;
 }
